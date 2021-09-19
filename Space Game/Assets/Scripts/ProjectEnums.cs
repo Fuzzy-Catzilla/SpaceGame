@@ -4,10 +4,22 @@ using UnityEngine;
 
 public enum Rarity
 {
-    Legendary,
-    Rare,
-    Uncommon,
-    Common,
+    Forbidden,
+    Bizarre,
+    Unique,
+    Perfect,
+    Quality,
+    Average,
+    Tarnished,
+};
+
+public enum AttackType
+{
+    Standard,
+    Charged,
+    Elemental,
+    Combo,
+    Special,
 };
 
 public enum MeleeWeaponType
@@ -16,4 +28,22 @@ public enum MeleeWeaponType
     Sword,
     Shield,
     Spear,
+};
+
+public enum RangedWeaponType
+{
+    Bow,
+    Crossbow,
+    Pistol,
+    Rifle,
+    Railgun,
+    Launcher,
+};
+
+public enum MagicWeaponType
+{
+    Wand,
+    Staff,
+    Orb,
+    Doll,
 };
